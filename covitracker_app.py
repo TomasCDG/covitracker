@@ -105,7 +105,7 @@ an error there.""")  #poner text_area
 
 	
 	
-	if st.button('Would you like to Dataframe as CSV?'):
+	if st.button('Would you like to download the Dataframe as CSV?'):
 	    if st.spinner('processing'):
 	    	tmp_download_link = download_link(df, f'Top {n_countries}.csv', 'Click to download the data!')
 	    	st.markdown(tmp_download_link, unsafe_allow_html=True)
