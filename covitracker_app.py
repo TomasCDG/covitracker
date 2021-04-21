@@ -16,7 +16,7 @@ st.title('Homemade Covid Tracker')
 
 st.subheader('Global Covid data updated from *Worldometers.info*')
 
-st.markdown('**_Source_** : https/:/www.worldometers.info/coronavirus/')
+st.markdown('**_Source_ taken from** : https/www.worldometers.info/coronavirus/')
 
 radio = st.radio("Which day's stats will you scrape?", ['today','yesterday'])
 
